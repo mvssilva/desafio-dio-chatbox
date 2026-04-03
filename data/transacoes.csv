@@ -1,11 +1,12 @@
-data,descricao,categoria,valor,tipo
-2025-10-01,Salário,receita,5000.00,entrada
-2025-10-02,Aluguel,moradia,1200.00,saida
-2025-10-03,Supermercado,alimentacao,450.00,saida
-2025-10-05,Netflix,lazer,55.90,saida
-2025-10-07,Farmácia,saude,89.00,saida
-2025-10-10,Restaurante,alimentacao,120.00,saida
-2025-10-12,Uber,transporte,45.00,saida
-2025-10-15,Conta de Luz,moradia,180.00,saida
-2025-10-20,Academia,saude,99.00,saida
-2025-10-25,Combustível,transporte,250.00,saida
+data,estabelecimento,categoria,valor,tipo
+2026-03-02,Mensalidade Academia,Saúde e Bem-estar,89.90,debito
+2026-03-05,Amazon Prime,Assinaturas,19.90,credito
+2026-03-07,Minecraft Realms,Assinaturas,29.90,credito
+2026-03-10,Livraria Leitura (Livro Fantasia),Lazer,65.00,pix
+2026-03-12,Uber,Transporte App,22.50,pix
+2026-03-14,iFood - Hamburgueria,Delivery,45.90,pix
+2026-03-18,Shopee (Componentes ESP32/Arduino),Educação/Projetos,85.00,credito
+2026-03-20,iFood - Pizza,Delivery,62.00,pix
+2026-03-21,Uber,Transporte App,35.00,pix
+2026-03-24,Supermercado Extra,Alimentação,120.00,debito
+2026-03-28,iFood - Sushi,Delivery,85.00,pix

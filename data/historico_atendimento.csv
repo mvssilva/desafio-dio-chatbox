@@ -1,6 +1,6 @@
 data,canal,tema,resumo,resolvido
-2025-09-15,chat,CDB,Cliente perguntou sobre rentabilidade e prazos,sim
-2025-09-22,telefone,Problema no app,Erro ao visualizar extrato foi corrigido,sim
-2025-10-01,chat,Tesouro Selic,Cliente pediu explicação sobre o funcionamento do Tesouro Direto,sim
-2025-10-12,chat,Metas financeiras,Cliente acompanhou o progresso da reserva de emergência,sim
-2025-10-25,email,Atualização cadastral,Cliente atualizou e-mail e telefone,sim
+2026-03-05,chat_levi,Configuração de Orçamento,Definiu limite de R$ 250 para Delivery e criou meta 'Reserva Viagem',sim
+2026-03-18,alerta_proativo,Gasto Excessivo,Aviso de 80% da cota de Lazer atingida. Cliente decidiu pedir comida em casa em vez de sair na sexta.,sim
+2026-03-25,chat_levi,Decisão de Compra,Perguntou se o orçamento permitia comprar um jogo novo. Agente orientou a aguardar a virada do cartão.,sim
+2026-04-01,relatorio_mensal,Balanço Positivo,Fechamento do mês com economia em apps de transporte. R$ 50 transferidos automaticamente para a meta da viagem.,sim
+2026-04-02,chat_levi,Ajuste de Categoria,Revisão do limite de assinaturas para incluir nova cobrança mensal de serviço de cloud/servidor.,sim

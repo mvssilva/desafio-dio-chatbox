@@ -1,42 +1,52 @@
 [
   {
+    "nome": "CDB Liquidez Diária (Modo Caixinha)",
+    "categoria": "renda_fixa",
+    "risco": "baixo",
+    "liquidez": "imediata",
+    "rentabilidade": "100% do CDI",
+    "aporte_minimo": 1.00,
+    "indicado_para": "Metas de curto prazo e organização do orçamento",
+    "dica_do_levi": "Perfeito para você separar aqueles 20 reais que sobraram do delivery e jogar direto na meta do upgrade do PC."
+  },
+  {
     "nome": "Tesouro Selic",
     "categoria": "renda_fixa",
     "risco": "baixo",
+    "liquidez": "D+1 (um dia útil)",
     "rentabilidade": "100% da Selic",
     "aporte_minimo": 30.00,
-    "indicado_para": "Reserva de emergência e iniciantes"
-  },
-  {
-    "nome": "CDB Liquidez Diária",
-    "categoria": "renda_fixa",
-    "risco": "baixo",
-    "rentabilidade": "102% do CDI",
-    "aporte_minimo": 100.00,
-    "indicado_para": "Quem busca segurança com rendimento diário"
+    "indicado_para": "Reserva de emergência e segurança",
+    "dica_do_levi": "O feijão com arroz que funciona. Onde o grosso da sua Reserva de Emergência deve ficar guardado."
   },
   {
     "nome": "LCI/LCA",
     "categoria": "renda_fixa",
     "risco": "baixo",
-    "rentabilidade": "95% do CDI",
+    "liquidez": "preso por 90 dias",
+    "rentabilidade": "95% do CDI (Isento de IR)",
     "aporte_minimo": 1000.00,
-    "indicado_para": "Quem pode esperar 90 dias (isento de IR)"
+    "indicado_para": "Dinheiro que você tem certeza que não vai precisar usar em 3 meses",
+    "alerta_do_levi": "Cuidado! O dinheiro fica trancado. Não coloque aqui a grana de pagar os boletos do mês."
   },
   {
-    "nome": "Fundo Multimercado",
+    "nome": "Fundo Multimercado Dinâmico",
     "categoria": "fundo",
     "risco": "medio",
-    "rentabilidade": "CDI + 2%",
+    "liquidez": "D+15 (15 dias para sacar)",
+    "rentabilidade": "CDI + 2% (Estimada)",
     "aporte_minimo": 500.00,
-    "indicado_para": "Perfil moderado que busca diversificação"
+    "indicado_para": "Diversificação",
+    "restricao_sistema": "Não recomendar proativamente. Apenas explicar se o usuário perguntar."
   },
   {
-    "nome": "Fundo de Ações",
-    "categoria": "fundo",
+    "nome": "Fundo de Ações - Tech Global",
+    "categoria": "renda_variavel",
     "risco": "alto",
+    "liquidez": "D+30 (30 dias para sacar)",
     "rentabilidade": "Variável",
     "aporte_minimo": 100.00,
-    "indicado_para": "Perfil arrojado com foco no longo prazo"
+    "indicado_para": "Investidores arrojados e longo prazo",
+    "restricao_sistema": "BLOQUEADO. Não recomendar em hipótese alguma para usuários com perfil_risco='Conservador' ou sem Reserva de Emergência de 100%."
   }
 ]

@@ -41,18 +41,19 @@ O LLM recebe apenas a "fotografia" do momento: quanto o usuário já gastou, qua
 ## Exemplo de Contexto Montado
 
 > Mostre um exemplo de como os dados são formatados para o agente.
-[CONTEXTO FINANCEIRO ATUALIZADO]
-Cliente: Marcos
-Status do Mês: Dia 22 (Restam 8 dias para o salário)
-Saldo Atual em Conta: R$ 450,00
-Meta Principal Ativa: "Reserva para Viagem fim do ano" (Progresso: 40%)
 
---- ALERTA DE ORÇAMENTO (CALCULADO VIA SISTEMA) ---
+[CONTEXTO FINANCEIRO ATUALIZADO]
+- Cliente: Marcos
+- Status do Mês: Dia 22 (Restam 8 dias para o salário)
+- Saldo Atual em Conta: R$ 450,00
+- Meta Principal Ativa: "Reserva para Viagem fim do ano" (Progresso: 40%)
+
+[ALERTA DE ORÇAMENTO (CALCULADO VIA SISTEMA)]
 Categoria: Delivery / iFood
 - Limite Mensal: R$ 250,00
 - Gasto Acumulado: R$ 230,00 (92% utilizado)
 - Última transação: R$ 45,00 em 21/10 (Hamburgueria)
 
 [MENSAGEM DO USUÁRIO]
-"Lira, tô com preguiça de cozinhar hoje, rola pedir uma pizza?"
+"Levi, tô com preguiça de cozinhar hoje, rola pedir uma pizza?"
 

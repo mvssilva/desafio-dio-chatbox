@@ -114,4 +114,8 @@ st.title("Levi, Seu consultor de gastos e financias!")
 if pergunta := st.chat_input("Digite sua dúvida aqui..."):
     st.chat_message("user").write(pergunta)
     with st.spinner("..."):
-        st.chat_message("assistant").write(perguntar(pergunta))
+        resposta_bruta = perguntar(pergunta)
+        
+        resposta_formatada = resposta_bruta.replace("R$", "R\\$")
+        
+        st.chat_message("assistant").write(resposta_formatada)
